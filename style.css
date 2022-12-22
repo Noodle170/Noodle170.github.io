@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  background-attachment: fixed;
+}
+
+.flex-container {
+  display: flex;
+}
+
+nav {
+  height: 100vh;
+  width: 400px;
+  background-image: linear-gradient(-45deg, red, blue);
+  position: fixed;
+  box-shadow: 0 0 15px black;
+}
+
+.nav-logo {
+  position: relative;
+}
+
+.nav-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 40px;
+  margin-bottom: 90px;
+  /* top: 40px;
+  left: 40px;
+  position: absolute; */
+}
+
+.nav-h1 {
+  font-family: "Comic sans MS";
+  font-size: 30px;
+  color: #800000;
+  top: 150px;
+  left: 100px;
+  text-shadow: 0 0 15px yellow;
+  position: absolute;
+}
+
+.nav-img:hover {
+  box-shadow: 0 0 20px white;
+}
+
+.nav-list {
+  font-family: monospace;
+  font-size: 25px;
+  text-align: center;
+}
+
+.nav-list li {
+  margin-bottom: 20px;
+}
+
+.nav-list a {
+  display: inline-block;
+}
+
+.nav-list a:link,
+.nav-list a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-list a:hover,
+.nav-list a:active {
+  color: #800000;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0 0 10px yellow;
+}
+
+nav p {
+  color: #fff;
+  font-family: "Comic sans MS";
+  text-shadow: 0 0 10px yellow;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+main {
+  margin-left: 400px;
+}
+
+.robal1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.robal {
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 500px;
+  height: 500px;
+  border-radius: 25%;
+  overflow: hidden;
+}
+
+.robal2 {
+  position: absolute;
+  top: 450px;
+  left: 300px;
+  font-family: "Comic sans MS";
+  color: blue;
+  text-transform: uppercase;
+  text-shadow: -5px 1px 0 greenyellow;
+}
+
+.dupa {
+  margin: 50px 300px;
+  padding: 15px;
+  text-align: center;
+  font-family: "Comic sans MS";
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.dupa h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 15px;
+}
+
+code {
+  display: inline-block;
+  margin: 20px;
+  padding: 25px 15px;
+  background-color: #d8d8d8;
+  border-radius: 5px;
+  font-family: consolas;
+  text-align: left;
+  position: relative;
+  width: 90%;
+}
+
+code::before {
+  content: "KOD";
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+  font-weight: bold;
+  position: absolute;
+  top: -10px;
+  left: -15px;
+}
+
+.table-z3 {
+  border-collapse: collapse;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.table-z3 tr td {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.dupa-php {
+  width: 1150px;
+  margin: 50px 150px;
+  padding: 15px;
+  text-align: center;
+  font-family: "Comic sans MS";
+  background-color: #fff;
+  border-radius: 5px;
+}
