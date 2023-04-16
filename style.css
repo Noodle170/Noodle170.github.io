@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(bg1.jpg);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  font-family: monospace;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav button {
+  outline: none;
+  margin-right: 2em;
+  margin-left: 2em;
+  margin-top: 5em;
+  margin-bottom: 2em;
+  padding: 5px 10px;
+  border-radius: 0.5em;
+  border: none;
+  font-family: monospace;
+  text-transform: uppercase;
+  cursor: pointer;
+  box-shadow: 6px 6px 0 #2a2f4f;
+  background-color: #917fb3;
+}
+
+.nav button a:link,
+.nav button a:visited {
+  font-size: 2.5em;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav button a:hover,
+.nav button a:active {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #2a2f4f;
+}
+
+.content {
+  height: auto;
+  width: 900px;
+  background-color: #e5beec;
+  color: #fff;
+  /* box-shadow: 7px 7px 0 #917fb3; */
+  padding: 20px;
+  border-radius: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 35px;
+}
+
+.lol {
+  height: auto;
+  width: 400px;
+  background-color: #fde2f3;
+  color: #917fb3;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 1em;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.lol1::before {
+  content: "1";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol2::before {
+  content: "2";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol3::before {
+  content: "3";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol4::before {
+  content: "4";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol5::before {
+  content: "5";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol6::before {
+  content: "6";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol7::before {
+  content: "7";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol8::before {
+  content: "8";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol9::before {
+  content: "9";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 9px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol10::before {
+  content: "10";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol11::before {
+  content: "11";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol12::before {
+  content: "12";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol13::before {
+  content: "13";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol14::before {
+  content: "14";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol15::before {
+  content: "15";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol16::before {
+  content: "16";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol17::before {
+  content: "17";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol18::before {
+  content: "18";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol19::before {
+  content: "19";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol20::before {
+  content: "20";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+.lol21::before {
+  content: "21";
+  background-color: #2a2f4f;
+  color: #fff;
+  padding: 5px 5px;
+  font-size: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+
+img {
+  height: 500px;
+  width: 380px;
+  margin: 50px;
+  border-radius: 2em;
+  border: 5px solid #2a2f4f;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav button {
+    outline: none;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 5em;
+    margin-bottom: 2em;
+    padding: 5px 10px;
+    border-radius: 0.5em;
+    border: none;
+    font-family: monospace;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 6px 6px 0 #2a2f4f;
+    background-color: #917fb3;
+  }
+
+  .nav button a:link,
+  .nav button a:visited {
+    font-size: 2em;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .nav button a:hover,
+  .nav button a:active {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: #2a2f4f;
+  }
+
+  .content {
+    height: auto;
+    width: 350px;
+    background-color: #e5beec;
+    color: #fff;
+    padding: 20px;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 25px;
+  }
+
+  .lol {
+    height: auto;
+    width: 250px;
+    background-color: #fde2f3;
+    color: #917fb3;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 1em;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  img {
+    height: 500px;
+    width: 380px;
+    margin: 50px;
+    border-radius: 2em;
+    border: 5px solid #2a2f4f;
+  }
+}
